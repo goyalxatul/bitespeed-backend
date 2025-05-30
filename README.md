@@ -7,7 +7,7 @@ This project is a backend service for Bitespeed identity reconciliation task. It
 
 The `/identify` endpoint is deployed and accessible at:
 
-[URL:](https://bitespeed-backend-2.onrender.com/identify)
+https://bitespeed-backend-2.onrender.com/identify
 
 ## Overview
 
@@ -97,9 +97,5 @@ The core functionality is exposed via an HTTP POST request to the `/identify` en
 
 This application is deployed as a **Web Service** on **Render.com**.
 
-Deployment:
 
-App Server (Brains): Runs on Render.com. It takes requests and does the thinking.
-Database (Memory): MySQL database lives on Railway.app. It stores all the contact data.
-How they talk: The Render app uses a secret address (DATABASE_URL) to connect to the Railway database to save and get info.
 ---
